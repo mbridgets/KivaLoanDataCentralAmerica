@@ -35,6 +35,6 @@ CREATE TABLE worldbank_data (
 
 -- Joins tables
 SELECT kiva_data.Country_Name, kiva_data.Borrower_Gender
-FROM WorldBank_data
+FROM worldbank_data
 JOIN kiva_data
-ON kiva_data.Country_Name = WorldBank_data.Country_Name;
+ON kiva_data.Country_Name = worldbank_data.Country_Name;
